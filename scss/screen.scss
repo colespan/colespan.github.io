@@ -1,0 +1,202 @@
+@import "reset";
+
+
+
+
+
+@media screen and (min-width: 500px){
+
+$width: 50%;
+@mixin center-page{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+section{
+	position: relative;
+	background-image:url('http://ww2.hdnux.com/photos/13/03/65/2899301/9/628x471.jpg');
+	background-repeat: no-repeat;
+	margin-top: 25px;
+	height: 400px;
+	width: 100%;
+	border-radius: 5px;
+	background-attachment: cover;
+	background-size: 100%;
+	color: green;
+	font-family: Lucida Grande;
+	text-align: center;
+	@include center-page();
+	background-position: center center;
+
+	}
+	body{
+	background-color: salmon;
+
+}
+header{
+	color: white;
+	font-size: 28px;
+	padding-bottom: 15px;
+	text-align: center;
+	vertical-align: center;
+}
+nav a{
+	text-decoration: none;
+	color: black;
+	transition: all 1s linear;
+	padding: 2% 10% 2% 10%;
+
+}
+nav a:hover{
+	background: lightblue;
+	border-radius: 10px;
+}
+ul{
+	list-style-type: circle;
+	padding-left: 25px;
+}
+div{
+	width: 45%;
+	vertical-align: top;
+	display: inline-block;
+	font-size: 24px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+
+}
+
+.image{
+	display: inline-block;
+	width: $width;
+	height: 400px;
+
+	}
+.image-page-width{
+		width: 100%;
+		height: 450px;
+		display: block;
+		border-radius: 5px;
+}
+
+
+span{
+width: $width;
+display: inline-block;
+font-size: 30px;
+vertical-align: top;
+font-family: Serif;
+padding-left: 25px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.imagee{
+display: inline-block;
+width: 45%;
+border-radius: 5px;
+}
+
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 500px){
+
+$width: 45%;
+body{
+background-color: salmon;
+
+}
+header{
+	height: 30px;
+	font-size: 28px;
+	color: white;
+
+	
+}
+section{
+	position: relative;
+	background-image:url('http://ww2.hdnux.com/photos/13/03/65/2899301/9/628x471.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin-top: 25px;
+	height: 400px;
+	width: 100%;
+	border-radius: 5px;
+	color: green;
+	font-family: Lucida Grande;
+}
+
+div{
+	display: inline-block;
+	width: $width;
+	margin-left: 16px;
+
+}
+ul{
+	list-style-type: circle;
+	padding-left: 5px;
+	font-size: 18px;
+}
+
+
+.instructions {
+	display: inline-block;
+	width: 100%;
+
+
+	
+}
+
+.image {
+	
+	width: $width;
+	display: inline-block;
+	border-radius: 5px;
+	vertical-align: top;
+
+
+
+	
+	}
+	
+.image-page-width{
+	display: block;
+	height: 370px;
+	width: 100%;
+	border-radius: 5px;
+		
+
+	}
+	
+	span{
+		display: inline-block;
+		width: 50%;
+		vertical-align: top;
+		margin-bottom: 20px;
+		font-family: Calibri;
+		font-size: 20px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 10px;
+
+	}
+	.imagee{
+		display: inline-block;
+		width: $width
+		;
+		height: 300px;
+		border-radius: 5px;
+	}
+	
+	
+	
+}
