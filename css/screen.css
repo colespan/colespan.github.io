@@ -72,6 +72,7 @@ table {
     padding-left: 50px;
     padding-right: 50px;
     background-position: center center;
+    line-height: 2em;
   }
 
   body {
@@ -86,16 +87,26 @@ table {
     vertical-align: center;
   }
 
+  nav {
+    text-align: center;
+  }
+
   nav a {
     text-decoration: none;
     color: black;
     transition: all 1s linear;
-    padding: 2% 10% 2% 10%;
+    padding: 1% 5% 1% 5%;
   }
 
   nav a:hover {
     background: lightblue;
     border-radius: 10px;
+    border: 2px;
+  }
+
+  .text {
+    padding-left: 10%;
+    padding-right: 10%;
   }
 
   ul {
@@ -152,6 +163,16 @@ table {
     height: 30px;
     font-size: 28px;
     color: white;
+    text-align: center;
+    vertical-align: center;
+  }
+
+  nav {
+    text-align: center;
+  }
+
+  nav a {
+    padding: 1% 5% 1% 5%;
   }
 
   section {
@@ -165,6 +186,11 @@ table {
     border-radius: 5px;
     color: green;
     font-family: Lucida Grande;
+  }
+
+  .text {
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
   div {

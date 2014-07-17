@@ -27,10 +27,13 @@ section{
 	text-align: center;
 	@include center-page();
 	background-position: center center;
+	line-height: 2em;
+
 
 	}
 	body{
 	background-color: salmon;
+
 
 }
 header{
@@ -40,16 +43,33 @@ header{
 	text-align: center;
 	vertical-align: center;
 }
+nav{
+	text-align: center;
+
+}
+
+
 nav a{
 	text-decoration: none;
 	color: black;
 	transition: all 1s linear;
-	padding: 2% 10% 2% 10%;
+	padding: 1% 5% 1% 5%;
+
+	
+	
+
 
 }
 nav a:hover{
 	background: lightblue;
 	border-radius: 10px;
+	border: 2px;
+
+
+}
+.text{
+padding-left: 10%;
+padding-right: 10%;
 }
 ul{
 	list-style-type: circle;
@@ -119,6 +139,15 @@ header{
 	height: 30px;
 	font-size: 28px;
 	color: white;
+	text-align: center;
+	vertical-align: center;
+}
+nav{
+	text-align: center;
+
+}
+nav a{
+	padding: 1% 5% 1% 5%;
 
 	
 }
@@ -134,7 +163,10 @@ section{
 	color: green;
 	font-family: Lucida Grande;
 }
-
+.text{
+padding-left: 5%;
+padding-right: 5%;
+}
 div{
 	display: inline-block;
 	width: $width;
