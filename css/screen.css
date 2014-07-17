@@ -67,7 +67,7 @@ table {
     background-attachment: cover;
     background-size: 100%;
     color: green;
-    font-family: Lucida Grande;
+    font-family: 'Droid Sans', sans-serif;
     text-align: center;
     padding-left: 50px;
     padding-right: 50px;
@@ -107,6 +107,8 @@ table {
   .text {
     padding-left: 10%;
     padding-right: 10%;
+    background: rgba(120, 0, 0, 0.3);
+    border-radius: 10px;
   }
 
   ul {
@@ -142,7 +144,7 @@ table {
     display: inline-block;
     font-size: 30px;
     vertical-align: top;
-    font-family: Serif;
+    font-family: 'Droid Sans', sans-serif;
     padding-left: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -185,7 +187,7 @@ table {
     width: 100%;
     border-radius: 5px;
     color: green;
-    font-family: Lucida Grande;
+    font-family: 'Droid Sans', sans-serif;
   }
 
   .text {
@@ -229,7 +231,7 @@ table {
     width: 50%;
     vertical-align: top;
     margin-bottom: 20px;
-    font-family: Calibri;
+    font-family: 'Droid Sans', sans-serif;
     font-size: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
