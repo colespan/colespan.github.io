@@ -56,6 +56,10 @@ table {
 }
 
 @media screen and (min-width: 500px) {
+  span {
+    font-family: 'Droid Sans', sans-serif;
+  }
+
   section {
     position: relative;
     background-image: url("http://ww2.hdnux.com/photos/13/03/65/2899301/9/628x471.jpg");
@@ -67,7 +71,6 @@ table {
     background-attachment: cover;
     background-size: 100%;
     color: green;
-    font-family: 'Droid Sans', sans-serif;
     text-align: center;
     padding-left: 50px;
     padding-right: 50px;
@@ -77,6 +80,7 @@ table {
 
   body {
     background-color: salmon;
+    color: white;
   }
 
   header {
@@ -144,7 +148,6 @@ table {
     display: inline-block;
     font-size: 30px;
     vertical-align: top;
-    font-family: 'Droid Sans', sans-serif;
     padding-left: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -197,7 +200,7 @@ table {
 
   div {
     display: inline-block;
-    width: 45%;
+    width: 50%;
     margin-left: 16px;
   }
 
@@ -228,7 +231,7 @@ table {
 
   span {
     display: inline-block;
-    width: 50%;
+    width: 45%;
     vertical-align: top;
     margin-bottom: 20px;
     font-family: 'Droid Sans', sans-serif;
